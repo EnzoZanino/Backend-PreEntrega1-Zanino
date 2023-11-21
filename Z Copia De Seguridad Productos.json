@@ -1,0 +1,92 @@
+[
+	{
+		"title": "CPU Intel Core i7-9700K",
+		"description": "8 Cores, 8 Threads, 3.6 GHz Base Clock, 4.9 GHz Max Boost Clock, 12 MB Cache, LGA 1151 Socket",
+		"price": "$369.99",
+		"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHmKo364U52cxJePkBs2aI92O87EujQAYwKWEcjGcKfULkgP-WfkJs_wCv5t03-wLcOw4&usqp=CAU",
+		"code": "BX80684I79700K",
+		"stock": 15,
+		"id": 1
+	},
+	{
+		"title": "GPU NVIDIA GeForce RTX 2080 Ti",
+		"description": "11 GB GDDR6, 4352 CUDA Cores, 1545 MHz Boost Clock, 352-bit Memory Interface, PCI Express 3.0",
+		"price": "$1,199.99",
+		"thumbnail": "https://w0.peakpx.com/wallpaper/176/1004/HD-wallpaper-rtx-2080ti-thumbnail.jpg",
+		"code": "9001G1502500000",
+		"stock": 5,
+		"id": 2
+	},
+	{
+		"title": "RAM Corsair Vengeance LPX 16GB",
+		"description": "DDR4, 3200 MHz, 2 x 8GB, CL16, XMP 2.0, Black",
+		"price": "$84.99",
+		"thumbnail": "https://media.pangoly.com/img/9/5/c/d/95cd143a-4958-4fcd-9825-57503707f1d6.jpg",
+		"code": "CMK16GX4M2B3200C16",
+		"stock": 30,
+		"id": 3
+	},
+	{
+		"title": "SSD Samsung 970 EVO Plus 1TB",
+		"description": "NVMe PCIe M.2 2280, 3500 MB/s Read Speed, 3300 MB/s Write Speed, V-NAND 3-bit MLC",
+		"price": "$169.99",
+		"thumbnail": "https://static3.caseking.de/media/image/thumbnail/ssss-092_ssss_092_01_800x800.jpg",
+		"code": "MZ-V7S1T0B/AM",
+		"stock": 20,
+		"id": 4
+	},
+	{
+		"title": "HDD Seagate BarraCuda 2TB",
+		"description": "SATA 6 Gb/s, 7200 RPM, 3.5-inch Internal Hard Drive, 256 MB Cache",
+		"price": "$54.99",
+		"thumbnail": "https://www.venex.com.ar/products_images/1609786191_245345.png",
+		"code": "ST2000DM008",
+		"stock": 25,
+		"id": 5
+	},
+	{
+		"title": "Motherboard ASUS ROG Strix Z390-E Gaming",
+		"description": "ATX, LGA 1151, Intel Z390, Dual M.2, SATA 6Gb/s, USB 3.1 Gen 2, Wi-Fi 802.11ac, Aura Sync RGB",
+		"price": "$279.99",
+		"thumbnail": "https://media.pangoly.com/img/d/d/b/7/ddb7bdca-daab-4149-acaa-f27db9baae2f.jpg",
+		"code": "ROGSTRIXZ390EGAMING",
+		"stock": 10,
+		"id": 6
+	},
+	{
+		"title": "Power Supply Corsair RM750x",
+		"description": "750W, 80 PLUS Gold Certified, Fully Modular, Zero RPM Fan Mode",
+		"price": "$129.99",
+		"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCY_WHJAS_X0V8hLPUNm5sEku7HMNKzRuAvuT7D-0T6erTEsJJDaPN9UCJQPXLHBgHHJg&usqp=CAU",
+		"code": "CP9020179NA",
+		"stock": 12,
+		"id": 7
+	},
+	{
+		"title": "Case NZXT H510",
+		"description": "ATX Mid Tower, Tempered Glass Side Panel, Front I/O USB Type-C Port, Cable Management System",
+		"price": "$69.99",
+		"thumbnail": "https://www.adorama.com/images/Large/NZCAH510BW1.jpg",
+		"code": "CAH510BW1",
+		"stock": 18,
+		"id": 8
+	},
+	{
+		"title": "Monitor Dell Alienware AW3418DW",
+		"description": "34-inch Curved, WQHD 3440 x 1440, 120Hz Refresh Rate, NVIDIA G-SYNC, IPS Panel",
+		"price": "$949.99",
+		"thumbnail": "https://www.buydig.com/shop/product-image.aspx?size=500&picId=342759",
+		"code": "210AMSS",
+		"stock": 3,
+		"id": 9
+	},
+	{
+		"title": "Keyboard Logitech G Pro",
+		"description": "Mechanical, Tenkeyless, RGB Lighting, Romer-G Tactile Switches, Detachable Cable",
+		"price": "$129.99",
+		"thumbnail": "https://s24.q4cdn.com/131595232/files/doc_multimedia/2017/03/1/Low_Resolution-ProTenkeyless_FOB.jpg",
+		"code": "920008290",
+		"stock": 8,
+		"id": 10
+	}
+]
