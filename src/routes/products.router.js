@@ -35,7 +35,7 @@ const productsRouter = (prodManager) => {
 
     router.post('/', (req, res) => {
         try {
-            const { title, description, code, price, stock, category, thumbnails } = req.body;
+            const { title, description, code, price, stock, category, thumbnail } = req.body;
 
             if (!title || !description || !code || !price || !stock || !category) {
                 return res.status(400).json({ error: 'Todos los campos son obligatorios, excepto thumbnails' });
@@ -50,7 +50,7 @@ const productsRouter = (prodManager) => {
                 status: true,
                 stock,
                 category,
-                thumbnails: thumbnails || [],
+                thumbnail: thumbnail || [],
             };
 
             prodManager.addProduct(newProduct);
@@ -62,25 +62,14 @@ const productsRouter = (prodManager) => {
         }
     });
 
-    router.put('/:pid', (req, res) => {
+    router.put('/:pid', async (req, res) => {
         try {
-            const productId = parseInt(req.params.pid);
-            const updatedProduct = req.body;
-            console.log(updatedProduct);
-
-            const requiredFields = ['title', 'description', 'code', 'price', 'stock', 'category'];
-            for (const field of requiredFields) {
-                if (!updatedProduct[field]) {
-                    return res.status(400).json({ error: `Falta completar el campo "${field}" del producto` });
-                }
-            }
-
-            prodManager.updateProduct(productId, updatedProduct);
-
-            res.json({ message: 'Producto actualizado correctamente' });
+            const pid = req.params.pid;
+            const update = req.body;
+            await productManager.updateProduct(pid, update);
+            res.send(update);
         } catch (error) {
-            console.error(error);
-            res.status(500).json({ error: 'Error interno del servidor' });
+            console.log(`Ha ocurrido un error: ${error}`);
         }
     });
 
