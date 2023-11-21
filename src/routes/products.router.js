@@ -66,7 +66,7 @@ const productsRouter = (prodManager) => {
         try {
             const pid = req.params.pid;
             const update = req.body;
-            await productManager.updateProduct(id, updatedProduct);
+            await productManager.updateProduct(pid, update);
             res.send(update);
         } catch (error) {
             console.log(`Ha ocurrido un error: ${error}`);
